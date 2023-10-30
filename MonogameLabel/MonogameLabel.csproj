@@ -1,6 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
@@ -8,7 +8,11 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AILib\AILib\AILib.csproj" />
     <ProjectReference Include="..\..\FormElementsLib\FormElementsLib\FormElementsLib.csproj" />
+    <ProjectReference Include="..\..\MonogameButton\MonogameButton\MonogameButton.csproj" />
+    <ProjectReference Include="..\..\MonogameTextBoxLib\MonogameTextBoxLib\MonogameTextBoxLib.csproj" />
+    <ProjectReference Include="..\..\MonoHelper\MonoHelper.csproj" />
     <ProjectReference Include="..\..\MonoHelper\MonoHelper\MonoHelper.csproj" />
   </ItemGroup>
 </Project>

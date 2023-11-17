@@ -13,6 +13,5 @@
     <ProjectReference Include="..\..\MonogameButton\MonogameButton\MonogameButton.csproj" />
     <ProjectReference Include="..\..\MonogameTextBoxLib\MonogameTextBoxLib\MonogameTextBoxLib.csproj" />
     <ProjectReference Include="..\..\MonoHelper\MonoHelper.csproj" />
-    <ProjectReference Include="..\..\MonoHelper\MonoHelper\MonoHelper.csproj" />
   </ItemGroup>
 </Project>

@@ -13,7 +13,8 @@ namespace MonogameLabel
         int sth, stw;
         public float realx=0, realy=0;
         public float realwidth = 0, realheight = 0;
-        public Label(int x, int y, int width, int heigth, string _text, SpriteFont _font, int _fontinitsize, int _fontsize)
+
+        public Label(int x, int y, int width, int heigth, string _text, SpriteFont _font, int _fontinitsize, int _fontsize, uint packedcolor = 0)
         {
             Location = new Vector2(x, y);
             font = _font;
@@ -22,7 +23,7 @@ namespace MonogameLabel
             text = _text;
             Location = new Vector2(x, y);
             Size = new System.Drawing.Size(width, heigth);
-            textcolor = Color.Black;
+            textcolor = new Color(packedcolor);
             stw = width;
             sth = heigth;
             if (width > 0 && heigth > 0) Size = new System.Drawing.Size(width, heigth);

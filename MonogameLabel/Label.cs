@@ -14,7 +14,7 @@ namespace MonogameLabel
         public float realx=0, realy=0;
         public float realwidth = 0, realheight = 0;
 
-        public Label(int x, int y, int width, int heigth, string _text, SpriteFont _font, int _fontinitsize, int _fontsize, uint packedcolor = 0)
+        public Label(int x, int y, int width, int heigth, string _text, SpriteFont _font, int _fontinitsize, int _fontsize, uint packedcolor = 4278190080)
         {
             Location = new Vector2(x, y);
             font = _font;
